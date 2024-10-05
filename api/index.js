@@ -10,6 +10,8 @@ import path from 'path'
 dotenv.config()
 connectDb()
 
+const __dirname = path.resolve()
+
 const app = express()
 const port = process.env.PORT || 7000;
 
